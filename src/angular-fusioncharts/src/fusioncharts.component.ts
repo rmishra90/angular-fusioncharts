@@ -51,6 +51,7 @@ class FusionChartsComponent
   @Input() dataLoadErrorMessage: string;
   @Input() dataInvalidMessage: string;
   @Input() dataEmptyMessage: string;
+  @Input() dataEmptyMessageFontSize: number;
   @Input() typeNotSupportedMessage: string;
   @Input() loadMessage: string;
   @Input() renderErrorMessage: string;
@@ -257,6 +258,7 @@ class FusionChartsComponent
     dataLoadErrorMessage: true,
     dataInvalidMessage: true,
     dataEmptyMessage: true,
+    dataEmptyMessageFontSize:true,
     typeNotSupportedMessage: true,
     loadMessage: true,
     renderErrorMessage: true,
